@@ -10,7 +10,7 @@ const PixelPlayer: React.FC = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   // REPLACE THIS with your actual Render URL from earlier
-  const PROXY_URL = "https://your-proxy-name.onrender.com"; 
+  const PROXY_URL = "https://spotify-backend-8bkf.onrender.com"; 
 
   const sendToSpotify = (testid: string) => {
     if (iframeRef.current && iframeRef.current.contentWindow) {
